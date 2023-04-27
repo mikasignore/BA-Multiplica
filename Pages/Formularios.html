@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
 </head>
+
 <body>
-    <main></main>
-    <form action="index.html" method="get">
-        <div>
-            <label for="nombre">Escribe Tu Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-        </div>
-        <div>
-            <label for="apellido">Escribe Tu apellido</label>
-            <input type="text" name="apellido" id="apellido" placeholder="apellido">
-        </div>
-        <div>
-            <label for="contraseña">Escribe Tu contraseña</label>
-            <input type="password" name="contraseña" id="contraseña" placeholder="contraseña"> 
-        </div>
-        <div>
-            <label for="radio">Hombre</label>
-            <input type="radio" name="radio" id="radio" value="Hombre">
-        </div>
-        <div>
-            <label for="radio">Mujer</label>
-            <input type="radio" name="radio" id="radio" value="Mujer">
-        </div>
-        <div>
-            <select name="talle" id="talle">
-                <option value="S">Talle S</option>
-                <option value="M">Talle M</option>
-                <option value="L">Talle L</option>
-            </select>
-        </div>
-        <div>
-            <input type="color" name="Color" id="Color">
-        </div>
-    </form>
+    <main>
+        <form action="index.html" method="get">
+            <fieldset>
+                <legend>Formularios</legend>
+                <div>
+                    <label for="nombre">Escribe Tu Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </div>
+                <div>
+                    <label for="apellido">Escribe Tu apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="apellido">
+                </div>
+                <div>
+                    <label for="contraseña">Escribe Tu contraseña</label>
+                    <input type="password" name="contraseña" id="contraseña" placeholder="contraseña">
+                </div>
+                <div>
+                    <label for="radio">Hombre</label>
+                    <input type="radio" name="radio" id="radio" value="Hombre">
+                </div>
+                <div>
+                    <label for="radio">Mujer</label>
+                    <input type="radio" name="radio" id="radio" value="Mujer">
+                </div>
+                <div>
+                    <select name="talle" id="talle">
+                        <option value="S">Talle S</option>
+                        <option value="M">Talle M</option>
+                        <option value="L">Talle L</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="color" name="Color" id="Color">
+                </div>
+            </fieldset>
+        </form>
     </main>
 </body>
+
 </html>
